@@ -1,3 +1,6 @@
+from operator import truediv
+
+
 class Tarea:
     def __init__(self, nombre):
         self.nombre = nombre
@@ -8,3 +11,7 @@ class Tarea:
 
     def estaLista(self):
         return self.listo
+
+    def terminar(self):
+        self.listo = True
+        
